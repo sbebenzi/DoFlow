@@ -45,13 +45,14 @@ export const colors = {
 export const globalStyles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: colors.fundo,
+    backgroundColor: colors.zinc[900],
+    padding: 16,
+    color:"#f7fee7" 
+  },
+    container2: {
+    flex: 1,
+    backgroundColor: colors.lime[900],
     padding: 16,
   },
-  titulo: {
-    fontSize: 24,
-    color: cores.texto,
-    fontWeight: "bold",
-  },
+  
 });
-Scoo
